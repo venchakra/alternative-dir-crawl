@@ -1,6 +1,8 @@
 #ifndef _WORKQ_H_
 #define _WORKQ_H_
 
+/* WorkQueue design based off Dhruva's implementation for MDS */
+
 #include <queue>
 #include <memory>
 #include <pthread.h>
