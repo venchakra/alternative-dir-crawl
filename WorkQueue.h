@@ -16,6 +16,8 @@ class Job {
         virtual int run(void* arg = NULL) = 0;
         virtual int jobType() = 0;
 
+        /* This commented bit of code is for callers who post jobs in
+           the WorkQueue and wait for the job to be completed */
         /* int wait() { */
         /*         pthread_mutex_lock(&_mtx); */
         /*         pthread_cond_wait(&_cv, &_mtx); */

@@ -3,7 +3,7 @@ dircrawl - Find total number of files under a given directory tree.
 
 Assignment
 ==========
-Our task is to improve the performance of the dircrawl program.
+Improve the performance of the dircrawl program.
 
 Conditions
 ==========
